@@ -1,0 +1,69 @@
+.level-test-top-img{
+    width: 100%;
+    padding: 180px 0;
+    background: linear-gradient(rgba(123, 161, 137, 0.6), rgba(0, 0, 0, 0.8)), url(../img_level_test/top_bg.jpg);
+    background-repeat: no-repeat;
+}
+.level-test-top-img>div>h2{
+    color: #fff;
+    font-weight: 600;
+}
+.level-test-top-img>div>p{
+    color: #fff;
+}
+
+.three-step{
+    width: 100%;
+    padding: 20px;
+    background: #f6f6f6;
+    margin-bottom: 50px;
+}
+.step-text{
+    padding: 10px 0;
+}
+.step-text>p{
+    padding-top: 40px;
+}
+.step-text>p::before{
+    content: "";
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 5px;
+    background: #333;
+    margin: 0 auto;
+    bottom: 30px;
+}
+
+.step-box{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.test-box{
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+    padding: 40px 0;
+}
+
+.leveltest-btn{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: #d2d2d2;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.leveltest-btn:hover{
+    background: rgb(116, 116, 116);
+}
+.leveltest-btn:hover a{
+    color: #fff;
+}
+.test-title>p{
+    padding: 10px 0;
+}

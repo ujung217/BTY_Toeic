@@ -1,0 +1,36 @@
+.event-top-img{
+    width: 100%;
+    padding: 180px 0;
+    background: linear-gradient(rgba(123, 161, 137, 0.6), rgba(0, 0, 0, 0.8)), url(../img_event/bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.event-top-img h1{
+    color: #fff;
+}
+.event-top-img p{
+    color: #fff;
+}
+
+
+.event-box{
+    border: 1px solid rgb(230, 230, 230);
+    margin: 30px 0;
+}
+.event-box .event-img img{
+    width: 100%;
+}
+
+.event-cont{
+    padding: 20px 10px;
+}
+.event-cont p:nth-child(3){
+    padding-top: 40px;
+}
+
+@media(max-width:768px){
+    .event-cont h2{
+        font-size: 1.5rem;
+    }
+}
