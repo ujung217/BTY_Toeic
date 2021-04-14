@@ -64,3 +64,12 @@
     font-weight: 700;
 }
 
+.ci-img{
+    display: flex;
+    justify-content: center;
+}
+.ci-img img{
+    width: 500px;
+    padding: 0;
+    margin: 0;
+}
